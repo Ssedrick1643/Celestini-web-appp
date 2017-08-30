@@ -1,0 +1,44 @@
+{% extends 'common/layer.njk' %}
+
+{% block content %}
+<form align="center">
+    <h2 class="mdc-typography--display2">Adding Patients</h2>
+    <div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="freak">
+      <label for="freak" class="mdc-textfield__label">FirstName</label>
+	</div>
+	<p> 
+	<div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="showtime">
+      <label for="showtime" class="mdc-textfield__label">SecondName</label>
+	</div>
+	<p> 
+	<div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="showtime">
+      <label for="showtime" class="mdc-textfield__label">Contact</label>
+	</div>
+	<p> 
+	<div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="showtime">
+      <label for="showtime" class="mdc-textfield__label">Next of Kin</label>
+	</div>
+	<p>
+	<div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="showtime">
+      <label for="showtime" class="mdc-textfield__label">Next of Kin Contact</label>
+	</div>
+	<p> 
+	<div class="mdc-textfield" data-mdc-auto-init="MDCTextfield">
+      <input type="text" class="mdc-textfield__input" id="showtime">
+      <label for="showtime" class="mdc-textfield__label">Previous Medical Issues</label>
+	</div>
+	<p> 
+	
+	<button type="submit" class="mdc-button mdc-button--raised mdc-button--primary mdc-ripple-surface" data-mdc-auto-init="MDCRipple">
+      Add Patient
+    </button>
+	</form>
+    <script src="/dist/jquery-3.1.1.min.js"></script>
+	<script src="/dist/material-components-web.min.js"></script>
+	<script>window.mdc.autoInit();</script>
+{% endblock %}
